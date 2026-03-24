@@ -68,7 +68,7 @@ jobs:
           -X POST https://api.github.com/repos/${{ github.repository }}/dispatches \
           -H "Accept: application/vnd.github.everest-preview+json" \
           -H "Authorization: token ${{ secrets.TOKEN_KIDDIN9 }}" \
-          -d '{"event_type": "x86_64 ${{ github.event.inputs.param }}", "client_payload": {"target": "glinet_gl-mt5000"}}'
+          -d '{"event_type": "x86_64 ${{ github.event.inputs.param }}", "client_payload": {"target": "mediatek_filogic"}}'
           # curl \
           # -X POST https://api.github.com/repos/${{ github.repository }}/dispatches \
           # -H "Accept: application/vnd.github.everest-preview+json" \
